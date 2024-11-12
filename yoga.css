@@ -24,7 +24,7 @@ footer {
     font-style: italic;
     text-align: center;
 }
-.wrapper {
+#wrapper {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
