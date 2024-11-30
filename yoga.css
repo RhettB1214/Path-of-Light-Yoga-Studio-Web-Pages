@@ -23,6 +23,10 @@ nav {
     font-weight: bold;
     padding: 1em; 
 }
+nav ul {
+    list-style: none;
+    padding-left: 0em;
+}
 nav a {
     text-decoration: none;
     display: block;
@@ -45,13 +49,15 @@ footer {
     text-align: center;
     padding: 1em;
 }
-img {
-    padding-left: 1em;
-    padding-right: 1em;
+.floatleft {
+    margin-right: 4em;
+    margin-bottom: 1em;
 }
 main {
     padding-left: 2em;
     padding-right: 2em;
+    padding-top: 1em;
+    margin-left: 170px;
 }
 .studio {
     font-style: italic;
@@ -65,5 +71,32 @@ main {
     margin-left: auto;
 }
 #hero {
-    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.clear {
+    clear: both;
+}
+#onehalf{
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#onethird {
+    float: left;
+    width: 33.33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+header a:link {
+    text-decoration: none;
+    color: #40407A;
+}
+header a:visited {
+    text-decoration: none;
+    color:#40407A;
+}
+header a:hover {
+    color: #FFFFFF;
 }
